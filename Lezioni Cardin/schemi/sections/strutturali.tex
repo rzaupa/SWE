@@ -1,0 +1,30 @@
+\section{Design Pattern Strutturali}
+Sono focalizzati sulle dipendenze degli aggetti affichè abbiano certe
+caratteristiche
+
+\subsection{Adapter}
+\subsubsection{Scopo}
+Consente di adattare l'interfaccia di una libreria esterna (Adaptee) ad
+un'interfaccia che mi serve (Target) per poterla usare all'interno del mio
+sistema
+\subsubsection{Struttura}
+Due modi per implementarlo:
+\begin{itemize}
+    \item \textbf{Adapter di classe}: eredito dalla libreria (Adaptee) e implemento l'interfaccia che mi serve (Target)  in una classe ClassAdapter
+    \item \textbf{Adapter di oggetto}: creo un oggetto che implementa l'interfaccia (Target) che mi serve e uso Adaptee come attributo
+\end{itemize}
+\subsubsection{Problematiche}
+Piu metodi da implementare, piu complessità
+
+\subsection{Decorator}
+\subsubsection{Scopo}
+Aggiungere responsabilità ad un oggetto dinamicamente (senza utilizzo di ereditarietà). Permette di aggiungere funzioni e funzionalità ad una funzionalità base. 
+\subsubsection{Struttura}
+\begin{itemize}
+    \item \textbf{Component}: interfaccia che definisce l'oggetto base (Pizza)
+    \item \textbf{ConcreteComponent}: implementazione dell'interfaccia Component (BasePizza)
+    \item \textbf{Decorator}: classe astratta che implementa l'interfaccia Component e ha un attributo di tipo Component (Topped Pizza)
+    \item \textbf{ConcreteDecorator}: implementazione di Decorator (Pizze concrete con aggiunte)
+\end{itemize}
+\subsubsection{Problematiche}
+Tante classi molto simili e piccole possono risultare complesse da testare in isolamento 

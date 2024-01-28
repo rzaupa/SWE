@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Design Pattern Creazionali}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Singleton}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Scopo}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Struttura}{2}{}%
+\contentsline {subsubsection}{\numberline {1.1.3}Problematiche}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Builder}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Scopo}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Struttura}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Problematiche}{2}{}%
+\contentsline {subsection}{\numberline {1.3}Abstract Factory}{3}{}%
+\contentsline {subsubsection}{\numberline {1.3.1}Scopo}{3}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Struttura}{3}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Problematiche}{3}{}%
+\contentsline {section}{\numberline {2}Design Pattern Strutturali}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Adapter}{4}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Scopo}{4}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Struttura}{4}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Problematiche}{4}{}%
+\contentsline {subsection}{\numberline {2.2}Decorator}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Scopo}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Struttura}{4}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Problematiche}{4}{}%
+\contentsline {section}{\numberline {3}Design Pattern Comportamentali}{5}{}%

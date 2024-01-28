@@ -1,0 +1,39 @@
+\section{Design Pattern Creazionali}
+Forniscono soluzioni per istanziare oggetti o gruppi di oggetti in modo flessibile e riutilizzabile.
+
+\subsection{Singleton}
+\subsubsection{Scopo}
+Evitare di dover creare piu istanze di una classe, garantendo che esista una sola istanza e fornendo un punto di accesso globale a tale istanza.
+\subsubsection{Struttura}
+\begin{itemize}
+    \item campo privato e statico che contiene l'istanza
+    \item costruttore privato
+    \item metodo pubblico e statico che restituisce l'istanza (getInstance())
+\end{itemize}
+\subsubsection{Problematiche}
+Nasconde le dipendenze tra classi client e il metodo statico, i metodi statici danno problemi con il testing. 
+
+\subsection{Builder}
+\subsubsection{Scopo}
+Separare la costruzione di un oggetto complesso (ha tante dipendenze) dalla sua rappresentazione
+\subsubsection{Struttura}
+\begin{itemize}
+    \item Rendo protetto il costruttore della classe complessa
+    \item Costruisco la classe Builder che ha gli stessi attributi della classe complessa
+    \item Builder ha metodi accomulatori (definiti con with) per settare gli attributi e ritorna se stesso
+    \item Builder ha un metodo build che ritorna un'istanza della classe complessa
+    \item Da fuori in una funzione che resituisce l'oggetto complesso creo un'istanza di Builder e setto gli attributi con i metodi with, infine chiamo il metodo build e ritorno la classe complessa
+\end{itemize}
+\subsubsection{Problematiche}
+Mi aspetto un accoppiamento forte ma va bene
+
+\subsection{Abstract Factory}
+\subsubsection{Scopo}
+I client richiedono la costruzione non solo di un oggetto ma di un gruppo di oggetti che lavorano insieme
+\subsubsection{Struttura}
+\begin{itemize}
+    \item Interfaccia astratta Factory che definisce le operazioni che creano i prodotti astratti
+    \item Classe concreta che implementa Factory che definisce le operazioni che creano i prodotti concreti
+\end{itemize}
+\subsubsection{Problematiche}
+Complesso supportare un nuovo prodotto, richiede di modificare la Factory e le sue implementazioni
