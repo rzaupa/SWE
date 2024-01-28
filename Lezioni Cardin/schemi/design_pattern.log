@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.25)  28 JAN 2024 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.25)  28 JAN 2024 23:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/ricca/OneDrive/Documenti/SWE/Lezioni Cardin/schemi/design_pattern.tex"
-(c:/Users/ricca/OneDrive/Documenti/SWE/Lezioni Cardin/schemi/design_pattern.tex
+**"c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex"
+(c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\ricca\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -76,11 +76,11 @@ Overfull \hbox (16.80832pt too wide) in paragraph at lines 13--14
  []
 
 
-Overfull \hbox (35.63194pt too wide) in paragraph at lines 25--26
+Overfull \hbox (35.63194pt too wide) in paragraph at lines 27--28
 []\OT1/cmr/bx/n/10 ConcreteComponent\OT1/cmr/m/n/10 : im-ple-men-tazione dell'interfaccia Com-po-nent (BasePizza) 
  []
 
-) [4] (sections/comportamentali.tex) [5] (design_pattern.aux)
+[4]) [5] (sections/comportamentali.tex) [6] (design_pattern.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -88,16 +88,16 @@ L3 programming layer <2023-08-29>
  ) 
 Here is how much of TeX's memory you used:
  500 strings out of 475248
- 10316 string characters out of 5757813
- 1926785 words of memory out of 5000000
+ 10364 string characters out of 5757813
+ 1927785 words of memory out of 5000000
  22078 multiletter control sequences out of 15000+600000
  562659 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,50p,332b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 35i,8n,50p,336b,244s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\ricca\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/ricca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/ricca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ricca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/ricca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/ricca/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on design_pattern.pdf (5 pages, 78318 bytes).
+Output written on design_pattern.pdf (6 pages, 79896 bytes).
 PDF statistics:
- 48 PDF objects out of 1000 (max. 8388607)
+ 51 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -18,7 +18,9 @@ Piu metodi da implementare, piu complessità
 
 \subsection{Decorator}
 \subsubsection{Scopo}
-Aggiungere responsabilità ad un oggetto dinamicamente (senza utilizzo di ereditarietà). Permette di aggiungere funzioni e funzionalità ad una funzionalità base. 
+Aggiungere responsabilità ad un oggetto dinamicamente (senza utilizzo di
+ereditarietà). Permette di aggiungere funzioni e funzionalità ad una
+funzionalità base.
 \subsubsection{Struttura}
 \begin{itemize}
     \item \textbf{Component}: interfaccia che definisce l'oggetto base (Pizza)
@@ -27,4 +29,17 @@ Aggiungere responsabilità ad un oggetto dinamicamente (senza utilizzo di eredit
     \item \textbf{ConcreteDecorator}: implementazione di Decorator (Pizze concrete con aggiunte)
 \end{itemize}
 \subsubsection{Problematiche}
-Tante classi molto simili e piccole possono risultare complesse da testare in isolamento 
+Tante classi molto simili e piccole possono risultare complesse da testare in
+isolamento
+
+\subsection{Facade}
+\subsubsection{Scopo}
+Permette di fornire un'interfaccia unica (accesso semplice) per un sottosistema complesso, ma non
+nosconde completamente le funzionalità del sottosistema. Accentra le dipendenze
+\subsubsection{Struttura}
+\begin{itemize}
+    \item \textbf{Facade}: classe che fornisce l'interfaccia unica
+    \item \textbf{Subsystem}: classi che implementano le funzionalità del sottosistema
+\end{itemize}
+\subsubsection{Problematiche}
+Da gestire molte dipendenze. Rischio di introdurre bug. Rischio di classe grande. Deve fare un'interfaccia stabile. 

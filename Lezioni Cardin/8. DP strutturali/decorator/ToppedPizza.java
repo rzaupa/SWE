@@ -8,7 +8,7 @@ public abstract class ToppedPizza implements Pizza {
         this.toDecorate = toDecorate;
     }
 
-    public List<String> ingredients() {
+    public final List<String> ingredients() {
         return addIngredients(toDecorate.ingredients());
     }
 

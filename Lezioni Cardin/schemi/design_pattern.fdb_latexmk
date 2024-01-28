@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1706479866 "c:/Users/ricca/OneDrive/Documenti/SWE/Lezioni Cardin/schemi/design_pattern.tex" "design_pattern.pdf" "design_pattern" 1706479867 0
+["pdflatex"] 1706481558 "c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex" "design_pattern.pdf" "design_pattern" 1706481558 0
   "C:/Users/ricca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706191846 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ricca/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1706458594 11548 574eea9e07f90ed1fe791be6c2660747 ""
   "C:/Users/ricca/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1706180478 24141908 0a2850b6f3379dc81796d8d304918da7 ""
@@ -24,13 +24,13 @@
   "C:/Users/ricca/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1687174146 20144 fbcf51733730d8f1a62143512ff5b1fe ""
   "C:/Users/ricca/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1687174146 8448 74078c4a887f2cdcd57c3ec111622740 ""
   "C:/Users/ricca/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
-  "c:/Users/ricca/OneDrive/Documenti/SWE/Lezioni Cardin/schemi/design_pattern.tex" 1706456681 546 1b75527c738131f07b1b91137b39a062 ""
-  "design_pattern.aux" 1706479866 2621 4955cc63bcf97293b1e234e36cf5ec4e "pdflatex"
+  "c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex" 1706456681 546 1b75527c738131f07b1b91137b39a062 ""
+  "design_pattern.aux" 1706481558 3041 9b024dd6ce3dbe438b9733fc14574233 "pdflatex"
   "design_pattern.tex" 1706456681 546 1b75527c738131f07b1b91137b39a062 ""
-  "design_pattern.toc" 1706479866 1521 98b3db5361890f5090cd73a31807efb7 "pdflatex"
+  "design_pattern.toc" 1706481558 1777 8a0dcceb6e4e648901b9bda67779ec74 "pdflatex"
   "sections/comportamentali.tex" 1706456640 40 f71d0afca802ecce5fc999b6d829f229 ""
   "sections/creazionali.tex" 1706466193 2091 1c4c093da9d2345a99b8da62f61fffb3 ""
-  "sections/strutturali.tex" 1706479865 1586 acc159819d08738089ffd8fb379a3deb ""
+  "sections/strutturali.tex" 1706481557 2179 440647a7ca813f5ada5d643eec638b6d ""
   (generated)
   "design_pattern.aux"
   "design_pattern.log"

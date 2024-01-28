@@ -1,6 +1,6 @@
-PWD c:\Users\ricca\OneDrive\Documenti\SWE\Lezioni Cardin\schemi
+PWD c:\Users\ricca\OneDrive\Documenti\SWE\SWE\Lezioni Cardin\schemi
 INPUT C:\Users\ricca\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\ricca\OneDrive\Documenti\SWE\Lezioni Cardin\schemi\design_pattern.tex
+INPUT c:\Users\ricca\OneDrive\Documenti\SWE\SWE\Lezioni Cardin\schemi\design_pattern.tex
 OUTPUT design_pattern.log
 INPUT C:\Users\ricca\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\ricca\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls

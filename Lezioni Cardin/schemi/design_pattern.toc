@@ -20,4 +20,8 @@
 \contentsline {subsubsection}{\numberline {2.2.1}Scopo}{4}{}%
 \contentsline {subsubsection}{\numberline {2.2.2}Struttura}{4}{}%
 \contentsline {subsubsection}{\numberline {2.2.3}Problematiche}{4}{}%
-\contentsline {section}{\numberline {3}Design Pattern Comportamentali}{5}{}%
+\contentsline {subsection}{\numberline {2.3}Facade}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.1}Scopo}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Struttura}{5}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Problematiche}{5}{}%
+\contentsline {section}{\numberline {3}Design Pattern Comportamentali}{6}{}%
