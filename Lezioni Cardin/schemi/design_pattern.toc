@@ -40,3 +40,7 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Scopo}{8}{}%
 \contentsline {subsubsection}{\numberline {3.4.2}Struttura}{8}{}%
 \contentsline {subsubsection}{\numberline {3.4.3}Problematiche}{8}{}%
+\contentsline {section}{\numberline {4}Architetturali}{9}{}%
+\contentsline {subsection}{\numberline {4.1}Model view controller}{9}{}%
+\contentsline {subsection}{\numberline {4.2}Model view presenter}{9}{}%
+\contentsline {subsection}{\numberline {4.3}Model view viewmodel}{9}{}%

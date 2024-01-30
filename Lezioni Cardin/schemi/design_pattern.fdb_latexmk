@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1706613811 "c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex" "design_pattern.pdf" "design_pattern" 1706613812 0
+["pdflatex"] 1706641391 "c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex" "design_pattern.pdf" "design_pattern" 1706641391 0
   "C:/Users/ricca/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706191846 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/ricca/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1706611049 14064 624b7d27ec67c70ff1333dbcbbbeeb54 ""
   "C:/Users/ricca/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1706180478 24141908 0a2850b6f3379dc81796d8d304918da7 ""
@@ -26,10 +26,11 @@
   "C:/Users/ricca/AppData/Local/Programs/MiKTeX/tex/latex/geometry/geometry.sty" 1578053545 42759 9cf6c5257b1bc7af01a58859749dd37a ""
   "C:/Users/ricca/AppData/Local/Programs/MiKTeX/tex/latex/graphics/keyval.sty" 1665067579 2671 7e67d78d9b88c845599a85b2d41f2e39 ""
   "C:/Users/ricca/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1681896761 29940 9473d58112bc8a88f5505b823a053dde ""
-  "c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex" 1706611045 663 8c1f4d0e9799bf3e360c0ab3cf47fb7c ""
-  "design_pattern.aux" 1706613811 4611 6c92185ac4b8d640119e11d52e4e6dd7 "pdflatex"
-  "design_pattern.tex" 1706611045 663 8c1f4d0e9799bf3e360c0ab3cf47fb7c ""
-  "design_pattern.toc" 1706613811 2732 a50f67634729b709857e144c451eaa28 "pdflatex"
+  "c:/Users/ricca/OneDrive/Documenti/SWE/SWE/Lezioni Cardin/schemi/design_pattern.tex" 1706635674 710 b016395c7defc2198b6ffced377489c3 ""
+  "design_pattern.aux" 1706641391 5053 acf872374c2ef641066cc1c549b133f8 "pdflatex"
+  "design_pattern.tex" 1706635674 710 b016395c7defc2198b6ffced377489c3 ""
+  "design_pattern.toc" 1706641391 3010 d201da533e38df8e450302430c1c3646 "pdflatex"
+  "sections/architetturali.tex" 1706641389 719 c02238b5164db6f276ec469f256de6f4 ""
   "sections/comportamentali.tex" 1706613810 2991 bfc9032a91e17c4ede03861dbf58af98 ""
   "sections/creazionali.tex" 1706466193 2091 1c4c093da9d2345a99b8da62f61fffb3 ""
   "sections/strutturali.tex" 1706607714 3085 35badf77b3dbda261cf71576b6f08eb3 ""

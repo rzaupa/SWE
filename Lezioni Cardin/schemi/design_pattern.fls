@@ -57,6 +57,9 @@ INPUT sections\strutturali.tex
 INPUT .\sections\comportamentali.tex
 INPUT .\sections\comportamentali.tex
 INPUT sections\comportamentali.tex
+INPUT .\sections\architetturali.tex
+INPUT .\sections\architetturali.tex
+INPUT sections\architetturali.tex
 INPUT design_pattern.aux
 INPUT C:\Users\ricca\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\ricca\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
