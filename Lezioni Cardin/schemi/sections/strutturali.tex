@@ -43,3 +43,17 @@ nosconde completamente le funzionalità del sottosistema. Accentra le dipendenze
 \end{itemize}
 \subsubsection{Problematiche}
 Da gestire molte dipendenze. Rischio di introdurre bug. Rischio di classe grande. Deve fare un'interfaccia stabile. 
+
+\subsection{Proxy}
+\subsubsection{Scopo}
+Fornire un oggetto (un altro tipo) sul quale si vogliono fornire caratteristiche ulteriore per l'accesso dei suoi metodi.
+\subsubsection{Struttura}
+Virtual Proxy: crea oggetti complessi on-demand (quando servono, caricamento in memoria lazy) \\
+Remote Proxy: si fa vedere locale un oggetto che in realtà è remoto (sfruttando la rete)\\
+Protection Proxy: permetto l'accesso ad alcune funzionalità di alcuni tipi solo a solo a certi utenti (client), fa il controllo dei diritti di accesso\\
+Puntatori intelligenti: tengono traccia degli oggetti istanziati\\
+\begin{itemize}
+    \item \textbf{Subject}: interfaccia che definisce l'oggetto base 
+    \item \textbf{RealSubject}: implementazione dell'interfaccia Subject
+    \item \textbf{Proxy}: classe che implementa l'interfaccia Subject e ha un attributo di tipo Subject (RealSubject)
+\end{itemize}

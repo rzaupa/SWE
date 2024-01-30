@@ -1,27 +1,42 @@
-\contentsline {section}{\numberline {1}Design Pattern Creazionali}{2}{}%
-\contentsline {subsection}{\numberline {1.1}Singleton}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.1}Scopo}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.2}Struttura}{2}{}%
-\contentsline {subsubsection}{\numberline {1.1.3}Problematiche}{2}{}%
-\contentsline {subsection}{\numberline {1.2}Builder}{2}{}%
-\contentsline {subsubsection}{\numberline {1.2.1}Scopo}{2}{}%
-\contentsline {subsubsection}{\numberline {1.2.2}Struttura}{2}{}%
-\contentsline {subsubsection}{\numberline {1.2.3}Problematiche}{2}{}%
+\contentsline {section}{\numberline {1}Design Pattern Creazionali}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Singleton}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.1}Scopo}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.2}Struttura}{3}{}%
+\contentsline {subsubsection}{\numberline {1.1.3}Problematiche}{3}{}%
+\contentsline {subsection}{\numberline {1.2}Builder}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Scopo}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Struttura}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Problematiche}{3}{}%
 \contentsline {subsection}{\numberline {1.3}Abstract Factory}{3}{}%
 \contentsline {subsubsection}{\numberline {1.3.1}Scopo}{3}{}%
-\contentsline {subsubsection}{\numberline {1.3.2}Struttura}{3}{}%
-\contentsline {subsubsection}{\numberline {1.3.3}Problematiche}{3}{}%
-\contentsline {section}{\numberline {2}Design Pattern Strutturali}{4}{}%
-\contentsline {subsection}{\numberline {2.1}Adapter}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.1}Scopo}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.2}Struttura}{4}{}%
-\contentsline {subsubsection}{\numberline {2.1.3}Problematiche}{4}{}%
-\contentsline {subsection}{\numberline {2.2}Decorator}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.1}Scopo}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.2}Struttura}{4}{}%
-\contentsline {subsubsection}{\numberline {2.2.3}Problematiche}{4}{}%
+\contentsline {subsubsection}{\numberline {1.3.2}Struttura}{4}{}%
+\contentsline {subsubsection}{\numberline {1.3.3}Problematiche}{4}{}%
+\contentsline {section}{\numberline {2}Design Pattern Strutturali}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Adapter}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Scopo}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.2}Struttura}{5}{}%
+\contentsline {subsubsection}{\numberline {2.1.3}Problematiche}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Decorator}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Scopo}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Struttura}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.3}Problematiche}{5}{}%
 \contentsline {subsection}{\numberline {2.3}Facade}{5}{}%
 \contentsline {subsubsection}{\numberline {2.3.1}Scopo}{5}{}%
-\contentsline {subsubsection}{\numberline {2.3.2}Struttura}{5}{}%
-\contentsline {subsubsection}{\numberline {2.3.3}Problematiche}{5}{}%
-\contentsline {section}{\numberline {3}Design Pattern Comportamentali}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.2}Struttura}{6}{}%
+\contentsline {subsubsection}{\numberline {2.3.3}Problematiche}{6}{}%
+\contentsline {subsection}{\numberline {2.4}Proxy}{6}{}%
+\contentsline {subsubsection}{\numberline {2.4.1}Scopo}{6}{}%
+\contentsline {subsubsection}{\numberline {2.4.2}Struttura}{6}{}%
+\contentsline {section}{\numberline {3}Design Pattern Comportamentali}{7}{}%
+\contentsline {subsection}{\numberline {3.1}Command}{7}{}%
+\contentsline {subsection}{\numberline {3.2}Observer}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Scopo}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Struttura}{7}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Problematiche}{7}{}%
+\contentsline {subsection}{\numberline {3.3}Strategy}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.1}Scopo}{7}{}%
+\contentsline {subsubsection}{\numberline {3.3.2}Struttura}{8}{}%
+\contentsline {subsection}{\numberline {3.4}Template Method}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}Scopo}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}Struttura}{8}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}Problematiche}{8}{}%

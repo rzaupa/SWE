@@ -1,1 +1,44 @@
 \section{Design Pattern Comportamentali}
+Forniscono dipendenze tra le classi in modo da strutturare il comportamento di tipi (la parte di business)
+
+\subsection{Command}
+
+\subsection{Observer}
+\subsubsection{Scopo}
+Aggiornare o far reagire automaticamente un insieme di oggetti quando un altro oggetto cambia stato o viene modificato. Quindi vuole:
+\begin{itemize}
+    \item Avere un sistema di notifica di eventuali modifiche
+    \item Non replicare questo sistema di notifica in ogni classe
+    \item definire una dipendenza uno a molti tra oggetti
+    \item creare massimo disaccoppiamento tra colore che cambiano il loro stato (Subject) e colore che devono essere notificati (Observer)
+\end{itemize}
+\subsubsection{Struttura}
+\begin{itemize}
+    \item Subject: classe astratta (mai interfaccia!) che contiene come attributo una lista di Observer, definisce le operazioni per aggiungere e rimuovere Observer (quindi permette ad un Observer di registrarsi e di cancellarsi alle notifiche di questa classe). Contiene poi un metodo notify() (implementato) che notifica tutti gli Observer registrati
+    \item ConcreteSubject: implementa le operazioni di Subject
+    \item Observer: interfaccia (deve esserlo) che definisce l'operazione di aggiornamento con il metodo update() astratto
+    \item ConcreteObserver: implementa l'operazione di aggiornamento implementa update() chiedendo lo stato del ConcreteSubject
+\end{itemize}
+\subsubsection{Problematiche}
+Non tutti gli Observer sono interessati alle medesime informazioni (si usano i Topic). Si può notificare ogni tot aggiornamenti dello stato per non dover notificare ogni volta.
+
+\subsection{Strategy}
+\subsubsection{Scopo}
+Definisce una famiglia di algoritmi che operano tutti allo stesso modo, esponendo alla medesima interfaccia. In questo modo è possibile cambiare l'algoritmo senza dover cambiare la classe che lo usa. Differenti varianti dello stesso algoritmo.
+\subsubsection{Struttura}
+\begin{itemize}
+    \item Strategy: interfaccia che definisce l'operazione comune a tutti gli algoritmi, modo unico per accedere all'algoritmo
+    \item ConcreteStrategy: implementa l'operazione comune a tutti gli algoritmi
+    \item Context: classe che usa l'algoritmo, contiene un riferimento a Strategy e definisce un metodo per impostare la Strategy (rappresenta gli input dell'algoritmo), di solito è un interfaccia
+\end{itemize}
+
+\subsection{Template Method}
+\subsubsection{Scopo}
+Riutilizzo il workflow (lo scheletro) dell'algoritmo ma l'implementazione delle singole operazioni può variare in qualche modo.
+\subsubsection{Struttura}
+\begin{itemize}
+    \item AbstractClass: classe astratta che definisce il template method (che contiene il workflow dell'algoritmo) e le operazioni primitive astratte (che sono le operazioni che variano)
+    \item ConcreteClass: implementa le operazioni primitive
+\end{itemize}
+\subsubsection{Problematiche}
+Usa l'ereditarietà anzichè la composizione
