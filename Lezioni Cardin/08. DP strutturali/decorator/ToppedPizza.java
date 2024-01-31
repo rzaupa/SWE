@@ -8,9 +8,9 @@ public abstract class ToppedPizza implements Pizza {
         this.toDecorate = toDecorate;
     }
 
-    public final List<String> ingredients() {
-        return addIngredients(toDecorate.ingredients());
+    @Override
+    void doSomething(){
+        this.toDecorate.doSomething();
     }
 
-    protected abstract List<String> addIngredients(List<String> ingredients);
 }

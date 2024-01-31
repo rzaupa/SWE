@@ -7,9 +7,9 @@ public class WurstelPizza extends ToppedPizza {
     }
 
     @Override
-    protected List<String> addIngredients(List<String> ingredients) {
-        final List<String> ingredientsCopy = new ArrayList<>(ingredients);
-        ingredients.add("wurstel");
-        return ingredientsCopy;
+    void doSomething(){
+        super.doSomething();
+        //skillissue
     }
+
 }
